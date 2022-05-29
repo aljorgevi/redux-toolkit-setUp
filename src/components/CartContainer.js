@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from 'react-redux'
-import { clearCart } from '../redux/features/cart/cartSlice.js'
+import { openModal } from '../redux/features/modal/modalSlice.js'
 import CartItem from './CartItem'
 
 const CartContainer = () => {
@@ -17,7 +17,7 @@ const CartContainer = () => {
 		)
 	}
 
-	const handleClick = () => dispatch(clearCart())
+	const handleClick = () => dispatch(openModal())
 
 	return (
 		<section className='cart'>
