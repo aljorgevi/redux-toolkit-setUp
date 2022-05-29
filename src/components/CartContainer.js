@@ -4,7 +4,7 @@ import CartItem from './CartItem'
 
 const CartContainer = () => {
 	const dispatch = useDispatch()
-	const { cartItems, total, amount } = useSelector(store => store.cart)
+	const { cartItems = [], total, amount } = useSelector(store => store.cart)
 
 	if (amount < 1) {
 		return (
