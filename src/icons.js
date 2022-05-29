@@ -14,8 +14,8 @@ export const CartIcon = () => {
         d='M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z'
       />
     </svg>
-  );
-};
+  )
+}
 
 export const ChevronDown = () => {
   return (
@@ -29,8 +29,8 @@ export const ChevronDown = () => {
     >
       <path strokeLinecap='round' strokeLinejoin='round' d='M19 9l-7 7-7-7' />
     </svg>
-  );
-};
+  )
+}
 
 export const ChevronUp = () => {
   return (
@@ -44,5 +44,5 @@ export const ChevronUp = () => {
     >
       <path strokeLinecap='round' strokeLinejoin='round' d='M5 15l7-7 7 7' />
     </svg>
-  );
-};
+  )
+}
